@@ -1,0 +1,24 @@
+{
+  "name": "little-chat",
+  "version": "1.0.0",
+  "description": "Chat application made with React JS for the front-end and Node.js/Express for the back-end",
+  "scripts": {
+    "client": "npm run dev -w client",
+    "server": "npm run dev -w server",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "messenger",
+    "react",
+    "node",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
