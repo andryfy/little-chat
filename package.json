@@ -17,8 +17,15 @@
   ],
   "author": "",
   "license": "MIT",
+  "files": [
+    "./client/*",
+    "./server/*"
+  ],
   "workspaces": [
     "client",
     "server"
-  ]
+  ],
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
 }
